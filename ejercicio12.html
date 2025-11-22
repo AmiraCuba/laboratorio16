@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Ejercicio 12</title>
+</head>
+<body>
+    <button id="botonMover">Mover</button>
+    <button id="botonReiniciar">Reiniciar</button>
+    <div id="cuadrado"></div>
+    <style>
+        #cuadrado {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(58, 0, 128);
+            margin-top: 20px;
+        }
+        @keyframes desplazamientoHorizontal {
+            from {transform: translateX(0);}
+            to {transform: translateX(300px);}
+        }
+        .mover {
+            animation: desplazamientoHorizontal 1s forwards;
+        }
+    </style>
+    <script src="script12.js"></script>
+</body>
+</html>
