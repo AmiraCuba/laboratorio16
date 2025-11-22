@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Ejercicio 22</title>
+</head>
+<body>
+    <h2>Simulador de Perfil</h2>
+    <form id="formularioPerfil">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required placeholder="Ej: Juan Pérez">
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" required placeholder="Ej: 25">
+        <label for="pais">País:</label>
+        <input type="text" id="pais" required placeholder="Ej: México">
+        <button type="submit">Guardar Perfil</button>
+    </form>
+    <div id="perfilGuardado">
+        <h3>Perfil Actual:</h3>
+        <p><strong>Nombre:</strong> <span id="showNombre"></span></p>
+        <p><strong>Edad:</strong> <span id="showEdad"></span></p>
+        <p><strong>País:</strong> <span id="showPais"></span></p>
+    </div>
+    <script src="script22.js"></script>
+</body>
+</html>
